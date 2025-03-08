@@ -55,10 +55,13 @@ h3 {
     padding: 30px;
     background-color: #C890A7;
 }
-
 .socialIcons {
     display: flex;
     width: 25px;
     height: 25px;
     column-gap: 35px;
+}
+
+.socialIcons:hover {
+    cursor: pointer;
 }
