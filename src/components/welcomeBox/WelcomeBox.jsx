@@ -11,7 +11,8 @@ const WelcomeBox = () => {
     <>
       <div className={styles.rectangle1}>
         <h3>WELCOME TO THE MOVIE CRITIC CHATBOT</h3>
-        <div className={styles.startButton}>ENTER</div>
+        {/* <div className={styles.startButton}>ENTER</div> */}
+        <div className={styles.startButton}><button>ENTER</button></div>
       </div>
       {/* <div className={styles.shadow-box}></div> */}
       <div className={styles.socialBox}>
